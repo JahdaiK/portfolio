@@ -1,0 +1,74 @@
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: hotpink;
+}
+nav{
+    border: 1px solid lightcoral;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+
+nav ul{
+    margin-left: auto;   
+}
+
+nav li{
+    padding-right: 15px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    /* border:2px solid lightskyblue; */
+    margin-top:auto;
+}
+
+
+
+/* #profile-pic{
+    display: flex;
+} */
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid plum;
+    margin-top: auto;
+
+}
+
+section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    /* margin-top: auto; */
+}
+
+p{
+    background-color: white;
+    border: 2px solid black;
+}
+
+#name{
+    background-color: pink;
+    border: 2px solid black;
+ }
+
+
+
+
+
+
