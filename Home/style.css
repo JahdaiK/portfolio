@@ -1,6 +1,8 @@
+
 body {
-  background-color: rgb(231, 180, 255);
+  background-color: #F3055A;
   margin: 0px;
+  font-family: 'Inter';
 }
 
 .logo {
@@ -10,7 +12,7 @@ body {
 nav {
   height: 60px;
   width: 100% vw;
-  background-color: rgba(254, 238, 255, 1);
+  background-color: white;
   display: flex;
   justify-content: space-between;
   margin-top: 0;
@@ -19,14 +21,25 @@ nav {
 
 #nav-bar li {
   display: inline flex;
-  list-style: none;
   padding: 10px;
-  color: rgba(243, 5, 90, 1);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
+li a{
+  color: #F3055A;
+  text-decoration: none;
+}
 
+main{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#largelogo{
+height: 200px;
+flex-shrink: 0;
+
+}
 hr {
   border: 1px solid #ccc;
   margin: 20px 0;
@@ -43,7 +56,9 @@ footer li {
   list-style: none;
   border: 2px orange solid;
   margin-left: 20px;
-  color: rgba(243, 5, 90, 1);
-
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
   
 }
