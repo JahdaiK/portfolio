@@ -27,6 +27,12 @@ nav {
   font-size: 20px;
   font-weight: bold;
 }
+
+li a{
+  color: orange;
+  text-decoration: none;
+}
+
 #profile {
   width: 360.75px;
 }
@@ -76,10 +82,9 @@ hr {
   margin: 20px 0;
 }
 footer {
-
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  
 
 }
 footer li {
