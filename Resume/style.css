@@ -39,3 +39,54 @@ body {
   /* flex-grow: 1; */
 /* display: flex;
     flex-direction: column */
+
+
+    body {
+      background-color: rgb(231, 180, 255);
+      margin: 0px;
+    }
+    
+    .logo {
+      height: 60px;
+    }
+    
+    nav {
+      border: 2px orange solid;
+      height: 60px;
+      width: 100% vw;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    
+    #nav-bar li {
+      display: inline flex;
+      list-style: none;
+      padding: 10px;
+      color: #ff9111;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    hr {
+      border: 1px solid #ccc;
+      margin: 20px 0;
+    }
+    footer {
+    
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    
+    }
+    footer li {
+      display: inline-block;
+      list-style: none;
+      border: 2px orange solid;
+      margin-left: 20px;
+    
+      
+    }
