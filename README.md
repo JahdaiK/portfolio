@@ -1,4 +1,5 @@
 #Jahdai's Portfolio Website!
+[Check out my portfolio!](https://jahdaik.github.io/portfolio/)
 ![Jahdai Logo](https://github.com/JahdaiK/portfolio/blob/main/portfolio%20images/JahMoriahLogo.png)
 
 ##Technology Used:
