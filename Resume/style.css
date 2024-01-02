@@ -95,17 +95,7 @@ height: 50px;
 border-radius: 10px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-footer li {
-  display: inline-block;
-  list-style: none;
-  border: 2px orange solid;
-  margin-left: 20px;
-}
+
 
 #addinfo {
   display: flex;
@@ -121,4 +111,19 @@ footer li {
 #work-experience{
 
   border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+footer li a{
+  color: white;
 }

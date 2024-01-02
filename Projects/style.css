@@ -1,6 +1,7 @@
 body {
     background-color: rgb(231, 180, 255);
     margin: 0px;
+    font-family: arial;
   }
   
   .logo {
@@ -8,7 +9,6 @@ body {
   }
   
   nav {
-    border: 2px orange solid;
     height: 60px;
     width: 100% vw;
     background-color: white;
@@ -33,22 +33,40 @@ body {
     text-decoration: none;
   }
   
-  hr {
-    border: 1px solid #ccc;
-    margin: 20px 0;
-  }
-  footer {
-  
+  #projects{
     display: flex;
-    justify-content: center;
+    width: 100%;
+
+  }
+.projbox{
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  height: 33.33%;
+  margin-left: 3px;
+}
+
+.projbox h2{
+align-self: center;
+}
+  .projimage{
+width: 100%;
+  }
+
+  footer {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
     margin-top: 20px;
-  
+    margin-left: 50%;
   }
   footer li {
     display: inline-block;
     list-style: none;
-    border: 2px orange solid;
     margin-left: 20px;
+  }
   
-    
+  footer li a{
+    color: white;
   }
