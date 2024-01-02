@@ -31,6 +31,39 @@ li a{
   text-decoration: none;
 }
 
+#welcomemodal{
+  background-color: lightblue;
+  display: flex; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+  justify-content: center;
+}
+
+#modalcontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#welcomemodal img{
+  height: 40%;
+  align-self: center;
+}
+
+button{
+  width:150px;
+  height: 30px;
+  background-color: gold;
+  border-radius: 20px;
+  border: white;
+  color: rgb(33, 165, 106);
+  margin-top: 50px;
+  align-self: center;
+}
 main{
   color:white;
   font-family: Arial, Helvetica, sans-serif;
