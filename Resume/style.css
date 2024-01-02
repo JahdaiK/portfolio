@@ -6,13 +6,12 @@ body {
   color: white;
 
 }
-
-.logo {
-  height: 60px;
+#resume{
+  margin: 0 200px 0 200px;
 }
 
+
 nav {
-  border: 2px orange solid;
   height: 60px;
   width: 100% vw;
   background-color: white;
@@ -21,7 +20,9 @@ nav {
   margin-top: 0;
   margin-bottom: 30px;
 }
-
+.logo {
+  height: 60px;
+}
 #nav-bar li {
   display: inline flex;
   list-style: none;
@@ -59,7 +60,6 @@ nav li a {
 }
 
 #contact{
-  color: white;
   margin-top: 0px;
   margin-bottom: 30px;
 
@@ -92,12 +92,9 @@ nav li a {
 .title{
   background-color: #cd0975;
 height: 50px;
+border-radius: 10px;
 }
 
-hr {
-  border: 1px solid #ccc;
-  margin: 20px 0;
-}
 footer {
   display: flex;
   justify-content: center;
@@ -110,14 +107,18 @@ footer li {
   margin-left: 20px;
 }
 
-/* #addinfo {
+#addinfo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+
 }
 
-#skills {
+.box{
+  width: 45%;
 }
 
-#languages {
-} */
+#work-experience{
+
+  border-radius: 10px;
+}
